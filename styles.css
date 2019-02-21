@@ -1,0 +1,157 @@
+<style>
+input[type=text],input[type=password]
+{
+  width: 100%;
+  padding:12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.form{
+  padding:16px;
+
+}
+
+ input[type=text], input[type=password] ,input[type='date'],input[type='number']{
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+    border-radius: 16px;
+    font-size: 15px;
+}
+
+.signupbutton{
+  height: 100%;
+  margin: 0px;
+  background-image:url("background.jpeg");
+  background-size: 100% 100%;
+  
+}
+
+
+.heading{
+  margin-left: 35%
+  
+}
+
+
+.firstbtn{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  margin-left: 38%;
+  width:500px;
+  opacity: 0.6;
+  border-radius: 16px;
+  position: absolute;
+    top: 50%;
+}
+
+
+
+.heading{
+  align-content: center;
+  
+}
+
+
+input[type=text]:focus, input[type=password],input[type='date']:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.5;
+  border-radius: 16px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.signup{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */ 
+  padding-top: 50px;
+  opacity: 0.9;  
+}
+
+.form-content{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+
+  .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.signupbutton{
+  margin-top: 500px; 
+}
+
+
+</style> 
