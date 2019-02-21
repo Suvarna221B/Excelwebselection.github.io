@@ -29,7 +29,7 @@ input[type=text],input[type=password]
   margin: 0px;
   background-image:url("background.jpeg");
   background-size: 100% 100%;
-  background-size:cover;
+  background-size: cover;
   
 }
 
@@ -138,6 +138,11 @@ button:hover {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+  body{
+    background-image: url(background.jpeg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
 }
   .cancelbtn {
   padding: 14px 20px;
