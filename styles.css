@@ -28,7 +28,7 @@ input[type=text],input[type=password]
   height: 100%;
   margin: 0px;
   background-image:url("background.jpeg");
- 
+  background-repeat: no-repeat; 
   background-size: cover;
   background-attachment:fixed;
   background-position:center;
