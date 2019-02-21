@@ -50,11 +50,12 @@ body{
   margin: auto;
   border: none;
   cursor: pointer;
-  margin-left: 38%;
+  margin-left: 30%%;
   width:500px;
   opacity: 0.6;
   border-radius: 16px;
   position: absolute;
+  position: center;
     top: 50%;
 }
 
