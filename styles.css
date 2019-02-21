@@ -149,11 +149,7 @@ button:hover {
     width: 100%;
   }
  
-  body{
-    background-image: url("background.jpeg");
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
+ 
 }
   .cancelbtn {
   padding: 14px 20px;
