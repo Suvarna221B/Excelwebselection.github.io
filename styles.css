@@ -141,6 +141,10 @@ button:hover {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+  
+  .firstbtn{
+    width: 5%;
+  }
  
   body{
     background-image: url("background.jpeg");
