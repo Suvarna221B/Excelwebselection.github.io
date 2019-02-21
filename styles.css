@@ -30,8 +30,6 @@ input[type=text],input[type=password]
   background-image:url("background.jpeg");
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  background-attachment:fixed;
-  background-position:center;
    display: flex;
   align-items: center;
   justify-content: center;
