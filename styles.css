@@ -24,7 +24,7 @@ input[type=text],input[type=password]
     font-size: 15px;
 }
 
-body{
+.signupbutton{
   height: 100%;
   margin: 0px;
   background-image:url("background.jpeg");
