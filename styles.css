@@ -24,7 +24,7 @@ input[type=text],input[type=password]
     font-size: 15px;
 }
 
-.signupbutton{
+body{
   height: 100%;
   margin: 0px;
   background-image:url("background.jpeg");
@@ -140,9 +140,7 @@ button:hover {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
-  .firstbtn{
-    width: 500px;
-  }
+ 
   body{
     background-image: url("background.jpeg");
   background-repeat: no-repeat; 
