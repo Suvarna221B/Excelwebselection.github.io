@@ -139,7 +139,7 @@ button:hover {
     width: 100%;
   }
   body{
-    background-image: url(background.jpeg);
+    background-image: url("background.jpeg");
   background-repeat: no-repeat; 
   background-size: cover;
 }
